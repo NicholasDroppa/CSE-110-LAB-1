@@ -1,0 +1,131 @@
+#section1
+{
+	background-color: rgb(245, 240, 230);
+	display: inline-block;
+	width: 100%;
+	scroll-margin-top: 136px;
+}
+
+#section2
+{
+	background-image: url("bg-orbs-1.jpg");
+	background-size: 100%;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	scroll-margin-top: 136px;
+}
+
+#section3
+{
+	background-color: rgb(245, 240, 230);
+	display: inline-block;
+	width: 100%;
+	scroll-margin-top: 136px;
+}
+
+#grid
+{
+	display: grid;
+	padding: 0px 25px;
+	gap: 25px;
+}
+
+#box1
+{
+	background-color: #182b49;
+	color: white;
+	max-height: 500px;
+	overflow: scroll;
+	grid-column: 1;
+}
+
+#box2
+{
+	background-color: #182b49;
+	color: white;
+	max-height: 500px;
+	overflow: scroll;
+	grid-column: 2;
+}
+
+#box3
+{
+	background-color: #182b49;
+	color: white;
+	max-height: 500px;
+	overflow: scroll;
+	grid-column: 3;
+}
+
+#box4
+{
+	background-color: #182b49;
+	color: white;
+	max-height: 500px;
+	overflow: scroll;
+	grid-column: 4;
+}
+
+#navbar
+{
+	position: sticky;
+	top: -1px;
+	background-color: white;
+	font-size: 28px;
+}
+
+#logo
+{
+	padding: 0px 8px;
+	max-width: 400px;
+}
+
+img
+{
+	padding: 0px 16px;
+}
+
+h2
+{
+	font-size: 28px;
+	margin: 8px;
+	padding: 8px;
+}
+
+p
+{
+	font-size: 28px;
+	margin: 8px;
+	padding: 8px;
+}
+
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding: 0px 8px;
+}
+
+li
+{
+	float: left;
+}
+
+li a
+{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+}
+
+li a:hover
+{
+	background-color: #182b49;
+	color: white;
+}
